@@ -1,0 +1,82 @@
+.raking3-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Nunito, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol", "Noto Color Emoji";
+      margin-top: 30px;
+      margin-bottom: 20px;
+      
+  }
+  
+  .raking3-container .img-raking3 {
+    background-color: #f8f9fc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #e3e6f0;
+  }
+  .raking3-container .img-raking3 img {
+      width: 116px;
+      height: 145px;
+    border-radius: 10px;
+  }
+  
+  .raking3-container .info-raking3-container {
+      width: 900px;
+  }
+  
+  .raking3-container .info-raking3-container .nome {
+    padding: 10px;
+    padding-top: 15px;
+    font-size: 28px;
+    color: #858796;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: left;
+  }
+  
+  .raking3-container .info-raking3-container .barra {
+    background-color: #f8f9fc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #e3e6f0;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+    .raking3-container .info-raking3-container .barra .red {
+      background-color: red;
+      width: 25%;
+      height: 85px;
+  
+    
+    }
+    .raking3-container .info-raking3-container .barra .green {
+      background-color: greenyellow;
+      width: 25%;
+      height: 85px;
+      filter: grayscale(100%);
+  
+    
+    }
+    .raking3-container .info-raking3-container .barra .blue {
+      background-color: blue;
+      width: 25%;
+      height: 85px;
+  
+    
+    }
+    .raking3-container .info-raking3-container .barra .yellow {
+      background-color: yellow;
+      width: 25%;
+      height: 85px;
+      filter: grayscale(100%);
+      
+  
+    
+    }
+  

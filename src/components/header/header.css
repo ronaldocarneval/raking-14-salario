@@ -1,0 +1,110 @@
+@keyframes balance {
+    0% {
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(30deg);
+    }
+    
+}
+
+@keyframes balance2 {
+    0% {
+        transform: rotate(45deg);
+    }
+    100%{
+        transform: rotate(65deg);
+    }
+    
+}
+
+.header-container{
+    background: url(imagens/bg1.png);
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.header-container .text-header-container {
+    margin-top: 350px;
+}
+
+.bubble-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+
+}
+
+.bubble-container .bubble {
+    background-color: #f8f9fc;
+    border: 1px solid #e3e6f0;
+    padding: 12px 14px;
+    border-radius: 100%;
+    position: absolute;
+    right: 120px;
+    bottom: 70px;
+    transform: rotate(-10deg);
+    animation: balance 1000ms alternate 400ms infinite;
+    
+    
+}
+
+.bubble-container .bubble-am {
+    background-color: #f8f9fc;
+    border: 1px solid #e3e6f0;
+    padding: 12px 14px;
+    border-radius: 100%;
+    position: absolute;
+    left: 150px;
+    bottom: 250px;
+    transform: rotate(-10deg);
+    animation: balance2 1000ms alternate 400ms infinite;
+    
+    
+    
+}
+.bubble-container .bubble-am img {
+width: 70px;
+    
+    
+}
+
+.bubble-container .bubble-a {
+    background-color: #f8f9fc;
+    border: 1px solid #e3e6f0;
+    padding: 12px 14px;
+    border-radius: 100%;
+    position: absolute;
+    left: 60px;
+    bottom: -300px;
+    transform: rotate(-40deg);
+    animation: balance 1000ms alternate 400ms infinite;
+    
+    
+}
+.bubble-container .bubble-a  img{
+  width: 90px;
+    
+    
+}
+
+.bubble-container .bubble-ver {
+    background-color: #f8f9fc;
+    border: 1px solid #e3e6f0;
+    padding: 12px 14px;
+    border-radius: 100%;
+    position: absolute;
+    right: 160px;
+    bottom: -350px;
+    transform: rotate(-10deg);
+    animation: balance2 1000ms alternate 400ms infinite;
+    
+    
+}
+
+.bubble-container .bubble-ver img {
+width: 55px;
+    
+    
+}

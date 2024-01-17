@@ -1,0 +1,26 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.nav-container .logo-container img {
+    width: 200px;
+    margin: 10px;
+    margin-left: 100px;
+    
+
+} 
+.nav-container .button-container {
+    margin-right: 15px;
+    width: 12%;
+} 
+
+.nav-container .button-container img {
+    width: 18px;
+    fill: #858796;
+} 
+
+
+
